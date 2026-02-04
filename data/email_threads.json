@@ -1,0 +1,1925 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-04T09:05:12Z",
+    "total_threads": 30,
+    "scenario_distribution": {
+      "happy_resolution": 6,
+      "policy_decline_accepted": 3,
+      "policy_decline_frustrated": 3,
+      "escalating": 4,
+      "no_response": 4,
+      "double_text": 3,
+      "chargeback_legal_threat": 3,
+      "reputational_threat": 2,
+      "wrong_answer": 2
+    }
+  },
+  "threads": [
+    {
+      "thread_id": "TH-2024-001",
+      "created_at": "2026-01-19T17:05:12Z",
+      "updated_at": "2026-01-19T20:11:28Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 372.9,
+      "total_messages": 2,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Emily Johnson",
+        "first_name": "Emily",
+        "email": "emily.johnson17@gmail.com",
+        "customer_since": "2024-09-15",
+        "total_orders": 15,
+        "lifetime_value": 107.74
+      },
+      "order": {
+        "order_id": "ORD-67959",
+        "products": [
+          "NightRest Elite",
+          "IronCore Strength"
+        ],
+        "total": 77.28
+      },
+      "category": "missing_items",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-005",
+        "name": "Emma S."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-001-001",
+          "role": "customer",
+          "timestamp": "2026-01-19T17:05:12Z",
+          "subject": "Missing items in my order",
+          "body": "Hi, I just received my order #ORD-67959 but NightRest Elite is missing from the package. I ordered 2 bottles but only received 1. Can you please help?"
+        },
+        {
+          "message_id": "MSG-001-002",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-19T20:11:28Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hello Emily,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-67959 and can confirm the issue.\n\nI've issued a full refund for the NightRest Elite which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nEmma S.",
+          "response_time_hours": 3.1
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-002",
+      "created_at": "2026-01-12T06:05:12Z",
+      "updated_at": "2026-01-13T02:26:51Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 534.6,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Lauren Davis",
+        "first_name": "Lauren",
+        "email": "lauren.davis33@gmail.com",
+        "customer_since": "2025-02-13",
+        "total_orders": 8,
+        "lifetime_value": 250.66
+      },
+      "order": {
+        "order_id": "ORD-77748",
+        "products": [
+          "SlimBoost Max"
+        ],
+        "total": 185.5
+      },
+      "category": "missing_items",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-001",
+        "name": "Sarah M."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-002-001",
+          "role": "customer",
+          "timestamp": "2026-01-12T06:05:12Z",
+          "subject": "Missing items in my order",
+          "body": "My order arrived today but it's incomplete. I'm missing SlimBoost Max from order #ORD-77748. This is really frustrating as I've been waiting for this."
+        },
+        {
+          "message_id": "MSG-002-002",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-01-12T08:04:46Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hello Lauren,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-77748 and can confirm the issue.\n\nI've issued a full refund for the SlimBoost Max which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nSarah M.",
+          "response_time_hours": 2.0
+        },
+        {
+          "message_id": "MSG-002-003",
+          "role": "customer",
+          "timestamp": "2026-01-13T02:26:51Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Wow, that was fast! Thank you so much Sarah M.. I really appreciate the quick response and the express shipping. This is why I keep ordering from you guys!"
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-003",
+      "created_at": "2026-01-31T03:05:12Z",
+      "updated_at": "2026-01-31T05:39:27Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 99.4,
+      "total_messages": 2,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Stephanie Smith",
+        "first_name": "Stephanie",
+        "email": "stephanie.smith94@gmail.com",
+        "customer_since": "2025-09-20",
+        "total_orders": 10,
+        "lifetime_value": 133.6
+      },
+      "order": {
+        "order_id": "ORD-79371",
+        "products": [
+          "PureGlow Collagen"
+        ],
+        "total": 129.53
+      },
+      "category": "general_inquiry",
+      "request_type": "information",
+      "request_reasonable": false,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-002",
+        "name": "James R."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-003-001",
+          "role": "customer",
+          "timestamp": "2026-01-31T03:05:12Z",
+          "subject": "Question about PureGlow Collagen",
+          "body": "What's the difference between PureGlow Collagen and SlimBoost Max? Trying to decide which one to buy."
+        },
+        {
+          "message_id": "MSG-003-002",
+          "role": "agent",
+          "agent_name": "James R.",
+          "agent_id": "AGT-002",
+          "timestamp": "2026-01-31T05:39:27Z",
+          "subject": "Re: Question about PureGlow Collagen",
+          "body": "Hi Stephanie,\n\nThank you for reaching out, and I sincerely apologize for this issue with your order.\n\nI've already processed a replacement shipment for the PureGlow Collagen - it will ship today with express delivery at no extra charge. You should receive it within 2-3 business days.\n\nTracking number: 1Z925363382\n\nIs there anything else I can help you with?\n\nBest,\nJames R.",
+          "response_time_hours": 2.6
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-004",
+      "created_at": "2026-01-06T02:05:12Z",
+      "updated_at": "2026-01-07T03:07:14Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 678.0,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Steven Miller",
+        "first_name": "Steven",
+        "email": "steven.miller77@gmail.com",
+        "customer_since": "2025-06-18",
+        "total_orders": 15,
+        "lifetime_value": 334.44
+      },
+      "order": {
+        "order_id": "ORD-90191",
+        "products": [
+          "GutHealth Plus"
+        ],
+        "total": 178.2
+      },
+      "category": "damaged_product",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-005",
+        "name": "Emma S."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-004-001",
+          "role": "customer",
+          "timestamp": "2026-01-06T02:05:12Z",
+          "subject": "Damaged GutHealth Plus received",
+          "body": "My GutHealth Plus arrived damaged - the seal was broken and some pills were crushed. This is unacceptable. Order #ORD-90191."
+        },
+        {
+          "message_id": "MSG-004-002",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-06T05:15:05Z",
+          "subject": "Re: Damaged GutHealth Plus received",
+          "body": "Hello Steven,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-90191 and can confirm the issue.\n\nI've issued a full refund for the GutHealth Plus which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nEmma S.",
+          "response_time_hours": 3.2
+        },
+        {
+          "message_id": "MSG-004-003",
+          "role": "customer",
+          "timestamp": "2026-01-07T03:07:14Z",
+          "subject": "Re: Damaged GutHealth Plus received",
+          "body": "Thanks Emma S.! I got the replacement today and everything looks good. You've restored my faith in your company."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-005",
+      "created_at": "2026-01-13T20:05:12Z",
+      "updated_at": "2026-01-14T00:20:41Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 512.7,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Jessica Thomas",
+        "first_name": "Jessica",
+        "email": "jessica.thomas26@yahoo.com",
+        "customer_since": "2025-02-07",
+        "total_orders": 10,
+        "lifetime_value": 704.91
+      },
+      "order": {
+        "order_id": "ORD-65671",
+        "products": [
+          "SlimBoost Max"
+        ],
+        "total": 147.95
+      },
+      "category": "general_inquiry",
+      "request_type": "information",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-004",
+        "name": "Mike T."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-005-001",
+          "role": "customer",
+          "timestamp": "2026-01-13T20:05:12Z",
+          "subject": "Question about SlimBoost Max",
+          "body": "When will SlimBoost Max be back in stock? I've been checking every day."
+        },
+        {
+          "message_id": "MSG-005-002",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-13T23:47:14Z",
+          "subject": "Re: Question about SlimBoost Max",
+          "body": "Hello Jessica,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-65671 and can confirm the issue.\n\nI've issued a full refund for the SlimBoost Max which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nMike T.",
+          "response_time_hours": 3.7
+        },
+        {
+          "message_id": "MSG-005-003",
+          "role": "customer",
+          "timestamp": "2026-01-14T00:20:41Z",
+          "subject": "Re: Question about SlimBoost Max",
+          "body": "Wow, that was fast! Thank you so much Mike T.. I really appreciate the quick response and the express shipping. This is why I keep ordering from you guys!"
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-006",
+      "created_at": "2026-01-12T00:05:12Z",
+      "updated_at": "2026-01-12T01:44:01Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 559.4,
+      "total_messages": 2,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Brian Jackson",
+        "first_name": "Brian",
+        "email": "brian.jackson73@gmail.com",
+        "customer_since": "2025-05-14",
+        "total_orders": 8,
+        "lifetime_value": 414.27
+      },
+      "order": {
+        "order_id": "ORD-86718",
+        "products": [
+          "NightRest Elite"
+        ],
+        "total": 163.58
+      },
+      "category": "damaged_product",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-003",
+        "name": "Lisa K."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-006-001",
+          "role": "customer",
+          "timestamp": "2026-01-12T00:05:12Z",
+          "subject": "Damaged NightRest Elite received",
+          "body": "My NightRest Elite arrived damaged - the seal was broken and some pills were crushed. This is unacceptable. Order #ORD-86718."
+        },
+        {
+          "message_id": "MSG-006-002",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-12T01:44:01Z",
+          "subject": "Re: Damaged NightRest Elite received",
+          "body": "Hello Brian,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-86718 and can confirm the issue.\n\nI've issued a full refund for the NightRest Elite which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nLisa K.",
+          "response_time_hours": 1.6
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-007",
+      "created_at": "2026-01-07T11:05:12Z",
+      "updated_at": "2026-01-07T16:32:59Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 664.5,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Brandon Moore",
+        "first_name": "Brandon",
+        "email": "brandon.moore13@gmail.com",
+        "customer_since": "2024-07-18",
+        "total_orders": 8,
+        "lifetime_value": 357.04
+      },
+      "order": {
+        "order_id": "ORD-46875",
+        "products": [
+          "SlimBoost Max"
+        ],
+        "total": 97.18
+      },
+      "category": "late_delivery",
+      "request_type": "information",
+      "request_reasonable": true,
+      "our_response_type": "policy_decline",
+      "assigned_agent": {
+        "id": "AGT-005",
+        "name": "Emma S."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-007-001",
+          "role": "customer",
+          "timestamp": "2026-01-07T11:05:12Z",
+          "subject": "Where is my order??",
+          "body": "My order #ORD-46875 was supposed to arrive 5 days ago. Where is it? I need my SlimBoost Max!"
+        },
+        {
+          "message_id": "MSG-007-002",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-07T14:10:18Z",
+          "subject": "Re: Where is my order??",
+          "body": "Hello Brandon,\n\nI understand your frustration, but I need to explain our policy.\n\nSubscription cancellations must be made at least 48 hours before the next billing date. Since your next shipment has already been processed, we cannot cancel this month's order.\n\nYour subscription has been cancelled for future months.\n\nRegards,\nEmma S.",
+          "response_time_hours": 3.1
+        },
+        {
+          "message_id": "MSG-007-003",
+          "role": "customer",
+          "timestamp": "2026-01-07T16:32:59Z",
+          "subject": "Re: Where is my order??",
+          "body": "I understand. That's disappointing but I appreciate you explaining the policy. I'll use the discount code for my next order. Thanks."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-008",
+      "created_at": "2026-01-10T12:05:12Z",
+      "updated_at": "2026-01-11T06:09:43Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 578.9,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Brandon Rodriguez",
+        "first_name": "Brandon",
+        "email": "brandon.rodriguez95@gmail.com",
+        "customer_since": "2025-02-18",
+        "total_orders": 1,
+        "lifetime_value": 721.97
+      },
+      "order": {
+        "order_id": "ORD-73355",
+        "products": [
+          "PureGlow Collagen"
+        ],
+        "total": 148.75
+      },
+      "category": "damaged_product",
+      "request_type": "replacement",
+      "request_reasonable": false,
+      "our_response_type": "policy_decline",
+      "assigned_agent": {
+        "id": "AGT-005",
+        "name": "Emma S."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-008-001",
+          "role": "customer",
+          "timestamp": "2026-01-10T12:05:12Z",
+          "subject": "Damaged PureGlow Collagen received",
+          "body": "Just opened my package and the PureGlow Collagen bottle is cracked. Everything inside is ruined. Order #ORD-73355."
+        },
+        {
+          "message_id": "MSG-008-002",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-10T14:46:34Z",
+          "subject": "Re: Damaged PureGlow Collagen received",
+          "body": "Hello Brandon,\n\nI understand your frustration, but I need to explain our policy.\n\nSubscription cancellations must be made at least 48 hours before the next billing date. Since your next shipment has already been processed, we cannot cancel this month's order.\n\nYour subscription has been cancelled for future months.\n\nRegards,\nEmma S.",
+          "response_time_hours": 2.7
+        },
+        {
+          "message_id": "MSG-008-003",
+          "role": "customer",
+          "timestamp": "2026-01-11T06:09:43Z",
+          "subject": "Re: Damaged PureGlow Collagen received",
+          "body": "Fine. Not happy about it but I get it. At least the subscription is cancelled now."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-009",
+      "created_at": "2026-01-27T06:05:12Z",
+      "updated_at": "2026-01-27T09:52:13Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 191.2,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Joshua Garcia",
+        "first_name": "Joshua",
+        "email": "joshua.garcia47@yahoo.com",
+        "customer_since": "2024-07-06",
+        "total_orders": 8,
+        "lifetime_value": 274.08
+      },
+      "order": {
+        "order_id": "ORD-36150",
+        "products": [
+          "NightRest Elite",
+          "GutHealth Plus"
+        ],
+        "total": 124.13
+      },
+      "category": "late_delivery",
+      "request_type": "information",
+      "request_reasonable": true,
+      "our_response_type": "policy_decline",
+      "assigned_agent": {
+        "id": "AGT-003",
+        "name": "Lisa K."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-009-001",
+          "role": "customer",
+          "timestamp": "2026-01-27T06:05:12Z",
+          "subject": "Where is my order??",
+          "body": "I ordered NightRest Elite two weeks ago and it still hasn't arrived. This is ridiculous. Order #ORD-36150."
+        },
+        {
+          "message_id": "MSG-009-002",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-27T06:49:44Z",
+          "subject": "Re: Where is my order??",
+          "body": "Hello Joshua,\n\nI understand your frustration, but I need to explain our policy.\n\nSubscription cancellations must be made at least 48 hours before the next billing date. Since your next shipment has already been processed, we cannot cancel this month's order.\n\nYour subscription has been cancelled for future months.\n\nRegards,\nLisa K.",
+          "response_time_hours": 0.7
+        },
+        {
+          "message_id": "MSG-009-003",
+          "role": "customer",
+          "timestamp": "2026-01-27T09:52:13Z",
+          "subject": "Re: Where is my order??",
+          "body": "I understand. That's disappointing but I appreciate you explaining the policy. I'll use the discount code for my next order. Thanks."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-010",
+      "created_at": "2026-01-30T20:05:12Z",
+      "updated_at": "2026-01-31T22:02:45Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 83.0,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Amanda Jackson",
+        "first_name": "Amanda",
+        "email": "amanda.jackson63@gmail.com",
+        "customer_since": "2025-05-03",
+        "total_orders": 11,
+        "lifetime_value": 399.96
+      },
+      "order": {
+        "order_id": "ORD-50385",
+        "products": [
+          "MindSharp Focus",
+          "ZenVita Pro"
+        ],
+        "total": 97.24
+      },
+      "category": "wrong_product",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "policy_decline",
+      "assigned_agent": {
+        "id": "AGT-001",
+        "name": "Sarah M."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-010-001",
+          "role": "customer",
+          "timestamp": "2026-01-30T20:05:12Z",
+          "subject": "Wrong product received",
+          "body": "Wrong product in my order #ORD-50385. I wanted MindSharp Focus not GutHealth Plus. Very disappointing."
+        },
+        {
+          "message_id": "MSG-010-002",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-01-31T02:30:45Z",
+          "subject": "Re: Wrong product received",
+          "body": "Hi Amanda,\n\nThank you for contacting us about your MindSharp Focus order.\n\nUnfortunately, our return policy only covers items within 30 days of purchase. Since your order was placed 87 days ago, we're unable to process a refund at this time.\n\nHowever, I'd like to offer you a 25% discount on your next order as a gesture of goodwill.\n\nBest,\nSarah M.",
+          "response_time_hours": 6.4
+        },
+        {
+          "message_id": "MSG-010-003",
+          "role": "customer",
+          "timestamp": "2026-01-31T22:02:45Z",
+          "subject": "Re: Wrong product received",
+          "body": "I've been waiting 3 days for a response and THIS is what I get? A generic email? You clearly don't care about your customers."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-011",
+      "created_at": "2026-01-11T12:05:12Z",
+      "updated_at": "2026-01-12T20:54:50Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 540.2,
+      "total_messages": 4,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "David Rodriguez",
+        "first_name": "David",
+        "email": "david.rodriguez14@yahoo.com",
+        "customer_since": "2024-10-26",
+        "total_orders": 12,
+        "lifetime_value": 420.8
+      },
+      "order": {
+        "order_id": "ORD-71351",
+        "products": [
+          "NightRest Elite"
+        ],
+        "total": 84.39
+      },
+      "category": "subscription_cancel",
+      "request_type": "cancellation",
+      "request_reasonable": true,
+      "our_response_type": "policy_decline",
+      "assigned_agent": {
+        "id": "AGT-005",
+        "name": "Emma S."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-011-001",
+          "role": "customer",
+          "timestamp": "2026-01-11T12:05:12Z",
+          "subject": "Cancel my subscription ASAP",
+          "body": "Please cancel my NightRest Elite subscription. I've been trying to do this online for days with no luck."
+        },
+        {
+          "message_id": "MSG-011-002",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-12T13:48:24Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hello David,\n\nI understand your frustration, but I need to explain our policy.\n\nSubscription cancellations must be made at least 48 hours before the next billing date. Since your next shipment has already been processed, we cannot cancel this month's order.\n\nYour subscription has been cancelled for future months.\n\nRegards,\nEmma S.",
+          "response_time_hours": 25.7
+        },
+        {
+          "message_id": "MSG-011-003",
+          "role": "customer",
+          "timestamp": "2026-01-12T18:48:24Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "I've been waiting 7 days for a response and THIS is what I get? A generic email? You clearly don't care about your customers."
+        },
+        {
+          "message_id": "MSG-011-004",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-12T20:54:50Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hi David,\n\nThank you for your patience. Is there anything else I can help you with?\n\nBest,\nEmma S.",
+          "response_time_hours": 1.6
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-012",
+      "created_at": "2026-01-15T23:05:12Z",
+      "updated_at": "2026-01-17T04:34:35Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 436.5,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Brittany Smith",
+        "first_name": "Brittany",
+        "email": "brittany.smith17@yahoo.com",
+        "customer_since": "2025-09-15",
+        "total_orders": 3,
+        "lifetime_value": 267.9
+      },
+      "order": {
+        "order_id": "ORD-54689",
+        "products": [
+          "GutHealth Plus"
+        ],
+        "total": 118.64
+      },
+      "category": "product_not_working",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "policy_decline",
+      "assigned_agent": {
+        "id": "AGT-002",
+        "name": "James R."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-012-001",
+          "role": "customer",
+          "timestamp": "2026-01-15T23:05:12Z",
+          "subject": "GutHealth Plus not working as advertised",
+          "body": "Honestly, GutHealth Plus doesn't work at all. I followed all the instructions and nothing. Very disappointed."
+        },
+        {
+          "message_id": "MSG-012-002",
+          "role": "agent",
+          "agent_name": "James R.",
+          "agent_id": "AGT-002",
+          "timestamp": "2026-01-16T17:33:04Z",
+          "subject": "Re: GutHealth Plus not working as advertised",
+          "body": "Hello Brittany,\n\nI understand your frustration, but I need to explain our policy.\n\nSubscription cancellations must be made at least 48 hours before the next billing date. Since your next shipment has already been processed, we cannot cancel this month's order.\n\nYour subscription has been cancelled for future months.\n\nRegards,\nJames R.",
+          "response_time_hours": 18.5
+        },
+        {
+          "message_id": "MSG-012-003",
+          "role": "customer",
+          "timestamp": "2026-01-17T04:34:35Z",
+          "subject": "Re: GutHealth Plus not working as advertised",
+          "body": "Are you serious?? I've been a customer for 2 years and this is how you treat me? This is UNACCEPTABLE."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-013",
+      "created_at": "2026-01-10T17:05:12Z",
+      "updated_at": "2026-01-14T05:19:55Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 507.8,
+      "total_messages": 5,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "Brandon Anderson",
+        "first_name": "Brandon",
+        "email": "brandon.anderson63@gmail.com",
+        "customer_since": "2024-08-10",
+        "total_orders": 10,
+        "lifetime_value": 639.63
+      },
+      "order": {
+        "order_id": "ORD-83831",
+        "products": [
+          "SlimBoost Max",
+          "JointFlex Ultra"
+        ],
+        "total": 171.15
+      },
+      "category": "product_not_working",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-003",
+        "name": "Lisa K."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-013-001",
+          "role": "customer",
+          "timestamp": "2026-01-10T17:05:12Z",
+          "subject": "SlimBoost Max not working as advertised",
+          "body": "I've been taking SlimBoost Max for 2 months now and I haven't noticed ANY difference. This feels like a waste of money."
+        },
+        {
+          "message_id": "MSG-013-002",
+          "role": "customer",
+          "timestamp": "2026-01-12T01:05:12Z",
+          "subject": "Re: SlimBoost Max not working as advertised",
+          "body": "HELLO??? I need help with my order!!"
+        },
+        {
+          "message_id": "MSG-013-003",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-13T01:52:36Z",
+          "subject": "Re: SlimBoost Max not working as advertised",
+          "body": "Hi Brandon,\n\nThank you for reaching out, and I sincerely apologize for this issue with your order.\n\nI've already processed a replacement shipment for the SlimBoost Max - it will ship today with express delivery at no extra charge. You should receive it within 2-3 business days.\n\nTracking number: 1Z731935825\n\nIs there anything else I can help you with?\n\nBest,\nLisa K.",
+          "response_time_hours": 24.8
+        },
+        {
+          "message_id": "MSG-013-004",
+          "role": "customer",
+          "timestamp": "2026-01-13T22:12:13Z",
+          "subject": "Re: SlimBoost Max not working as advertised",
+          "body": "This doesn't solve my problem at all. I asked for a refund, not a discount code I'll never use. Let me speak to a manager."
+        },
+        {
+          "message_id": "MSG-013-005",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-14T05:19:55Z",
+          "subject": "Re: SlimBoost Max not working as advertised",
+          "body": "Hi Brandon,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nLisa K.",
+          "response_time_hours": 7.9
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-014",
+      "created_at": "2026-01-11T06:05:12Z",
+      "updated_at": "2026-01-12T04:28:05Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 556.6,
+      "total_messages": 5,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Stephanie Davis",
+        "first_name": "Stephanie",
+        "email": "stephanie.davis57@gmail.com",
+        "customer_since": "2024-12-01",
+        "total_orders": 2,
+        "lifetime_value": 413.03
+      },
+      "order": {
+        "order_id": "ORD-81925",
+        "products": [
+          "MindSharp Focus"
+        ],
+        "total": 100.33
+      },
+      "category": "subscription_cancel",
+      "request_type": "cancellation",
+      "request_reasonable": true,
+      "our_response_type": "partial",
+      "assigned_agent": {
+        "id": "AGT-003",
+        "name": "Lisa K."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-014-001",
+          "role": "customer",
+          "timestamp": "2026-01-11T06:05:12Z",
+          "subject": "Cancel my subscription ASAP",
+          "body": "CANCEL MY SUBSCRIPTION NOW. I don't want any more MindSharp Focus shipped to me. How do I stop this?"
+        },
+        {
+          "message_id": "MSG-014-002",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-11T10:12:19Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hello,\n\nWe have received your message and will get back to you soon.\n\nThank you for your patience.\n\nSupport Team",
+          "response_time_hours": 4.1
+        },
+        {
+          "message_id": "MSG-014-003",
+          "role": "customer",
+          "timestamp": "2026-01-11T11:51:36Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Are you serious?? I've been a customer for 2 years and this is how you treat me? This is UNACCEPTABLE."
+        },
+        {
+          "message_id": "MSG-014-004",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-12T01:18:49Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hi Stephanie,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nLisa K.",
+          "response_time_hours": 8.7
+        },
+        {
+          "message_id": "MSG-014-005",
+          "role": "customer",
+          "timestamp": "2026-01-12T04:28:05Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Too little too late. I'm done with this company."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-015",
+      "created_at": "2026-01-07T08:05:12Z",
+      "updated_at": "2026-01-08T23:43:19Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 633.4,
+      "total_messages": 4,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Mike Jones",
+        "first_name": "Mike",
+        "email": "mike.jones83@yahoo.com",
+        "customer_since": "2024-05-18",
+        "total_orders": 13,
+        "lifetime_value": 677.06
+      },
+      "order": {
+        "order_id": "ORD-95198",
+        "products": [
+          "MindSharp Focus"
+        ],
+        "total": 99.52
+      },
+      "category": "product_not_working",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-004",
+        "name": "Mike T."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-015-001",
+          "role": "customer",
+          "timestamp": "2026-01-07T08:05:12Z",
+          "subject": "MindSharp Focus not working as advertised",
+          "body": "Honestly, MindSharp Focus doesn't work at all. I followed all the instructions and nothing. Very disappointed."
+        },
+        {
+          "message_id": "MSG-015-002",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-07T17:52:56Z",
+          "subject": "Re: MindSharp Focus not working as advertised",
+          "body": "Hello Mike,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-95198 and can confirm the issue.\n\nI've issued a full refund for the MindSharp Focus which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nMike T.",
+          "response_time_hours": 9.8
+        },
+        {
+          "message_id": "MSG-015-003",
+          "role": "customer",
+          "timestamp": "2026-01-08T00:35:53Z",
+          "subject": "Re: MindSharp Focus not working as advertised",
+          "body": "This doesn't solve my problem at all. I asked for a refund, not a discount code I'll never use. Let me speak to a manager."
+        },
+        {
+          "message_id": "MSG-015-004",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-08T23:43:19Z",
+          "subject": "Re: MindSharp Focus not working as advertised",
+          "body": "Hi Mike,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nMike T.",
+          "response_time_hours": 4.3
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-016",
+      "created_at": "2026-02-02T23:05:12Z",
+      "updated_at": "2026-02-05T16:40:44Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": -31.6,
+      "total_messages": 6,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "David Taylor",
+        "first_name": "David",
+        "email": "david.taylor93@yahoo.com",
+        "customer_since": "2024-08-31",
+        "total_orders": 15,
+        "lifetime_value": 827.19
+      },
+      "order": {
+        "order_id": "ORD-76041",
+        "products": [
+          "NightRest Elite"
+        ],
+        "total": 139.54
+      },
+      "category": "subscription_cancel",
+      "request_type": "cancellation",
+      "request_reasonable": false,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-004",
+        "name": "Mike T."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-016-001",
+          "role": "customer",
+          "timestamp": "2026-02-02T23:05:12Z",
+          "subject": "Cancel my subscription ASAP",
+          "body": "CANCEL MY SUBSCRIPTION NOW. I don't want any more NightRest Elite shipped to me. How do I stop this?"
+        },
+        {
+          "message_id": "MSG-016-002",
+          "role": "customer",
+          "timestamp": "2026-02-04T02:05:12Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "HELLO??? I need help with my order!!"
+        },
+        {
+          "message_id": "MSG-016-003",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-02-04T07:26:11Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hi David,\n\nThank you for reaching out, and I sincerely apologize for this issue with your order.\n\nI've already processed a replacement shipment for the NightRest Elite - it will ship today with express delivery at no extra charge. You should receive it within 2-3 business days.\n\nTracking number: 1Z549934396\n\nIs there anything else I can help you with?\n\nBest,\nMike T.",
+          "response_time_hours": 5.3
+        },
+        {
+          "message_id": "MSG-016-004",
+          "role": "customer",
+          "timestamp": "2026-02-05T03:11:04Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Are you serious?? I've been a customer for 2 years and this is how you treat me? This is UNACCEPTABLE."
+        },
+        {
+          "message_id": "MSG-016-005",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-02-05T15:59:57Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hi David,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nMike T.",
+          "response_time_hours": 2.8
+        },
+        {
+          "message_id": "MSG-016-006",
+          "role": "customer",
+          "timestamp": "2026-02-05T16:40:44Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "We'll see about that. I've already filed my complaint."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-017",
+      "created_at": "2026-01-27T15:05:12Z",
+      "updated_at": "2026-01-27T15:05:12Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 186.0,
+      "total_messages": 1,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Brandon Jones",
+        "first_name": "Brandon",
+        "email": "brandon.jones29@gmail.com",
+        "customer_since": "2025-05-10",
+        "total_orders": 10,
+        "lifetime_value": 512.29
+      },
+      "order": {
+        "order_id": "ORD-88293",
+        "products": [
+          "JointFlex Ultra"
+        ],
+        "total": 151.89
+      },
+      "category": "missing_items",
+      "request_type": "replacement",
+      "request_reasonable": false,
+      "our_response_type": "no_response",
+      "assigned_agent": null,
+      "messages": [
+        {
+          "message_id": "MSG-017-001",
+          "role": "customer",
+          "timestamp": "2026-01-27T15:05:12Z",
+          "subject": "Missing items in my order",
+          "body": "My order arrived today but it's incomplete. I'm missing JointFlex Ultra from order #ORD-88293. This is really frustrating as I've been waiting for this."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-018",
+      "created_at": "2026-01-27T23:05:12Z",
+      "updated_at": "2026-01-27T23:05:12Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 178.0,
+      "total_messages": 1,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Tyler Jones",
+        "first_name": "Tyler",
+        "email": "tyler.jones70@gmail.com",
+        "customer_since": "2025-06-08",
+        "total_orders": 2,
+        "lifetime_value": 808.95
+      },
+      "order": {
+        "order_id": "ORD-67999",
+        "products": [
+          "NightRest Elite"
+        ],
+        "total": 180.52
+      },
+      "category": "subscription_cancel",
+      "request_type": "cancellation",
+      "request_reasonable": true,
+      "our_response_type": "no_response",
+      "assigned_agent": null,
+      "messages": [
+        {
+          "message_id": "MSG-018-001",
+          "role": "customer",
+          "timestamp": "2026-01-27T23:05:12Z",
+          "subject": "Cancel my subscription ASAP",
+          "body": "CANCEL MY SUBSCRIPTION NOW. I don't want any more NightRest Elite shipped to me. How do I stop this?"
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-019",
+      "created_at": "2026-01-28T14:05:12Z",
+      "updated_at": "2026-01-31T09:05:12Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 96.0,
+      "total_messages": 2,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "Megan Martinez",
+        "first_name": "Megan",
+        "email": "megan.martinez56@gmail.com",
+        "customer_since": "2025-02-03",
+        "total_orders": 9,
+        "lifetime_value": 114.29
+      },
+      "order": {
+        "order_id": "ORD-77441",
+        "products": [
+          "IronCore Strength"
+        ],
+        "total": 86.21
+      },
+      "category": "billing_dispute",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "no_response",
+      "assigned_agent": null,
+      "messages": [
+        {
+          "message_id": "MSG-019-001",
+          "role": "customer",
+          "timestamp": "2026-01-28T14:05:12Z",
+          "subject": "Incorrect charge on my account",
+          "body": "I was charged twice for order #ORD-77441! I see two charges of the same amount on my credit card. Fix this immediately."
+        },
+        {
+          "message_id": "MSG-019-002",
+          "role": "customer",
+          "timestamp": "2026-01-31T09:05:12Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hello?? Is anyone there? I sent an email 2 days ago!"
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-020",
+      "created_at": "2026-01-22T04:05:12Z",
+      "updated_at": "2026-01-24T00:05:12Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 273.0,
+      "total_messages": 2,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "Lauren Moore",
+        "first_name": "Lauren",
+        "email": "lauren.moore57@yahoo.com",
+        "customer_since": "2024-04-21",
+        "total_orders": 3,
+        "lifetime_value": 473.65
+      },
+      "order": {
+        "order_id": "ORD-88028",
+        "products": [
+          "GutHealth Plus",
+          "ZenVita Pro"
+        ],
+        "total": 58.36
+      },
+      "category": "missing_items",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "no_response",
+      "assigned_agent": null,
+      "messages": [
+        {
+          "message_id": "MSG-020-001",
+          "role": "customer",
+          "timestamp": "2026-01-22T04:05:12Z",
+          "subject": "Missing items in my order",
+          "body": "Hello, package arrived but GutHealth Plus wasn't in the box. Order #ORD-88028. What happened?"
+        },
+        {
+          "message_id": "MSG-020-002",
+          "role": "customer",
+          "timestamp": "2026-01-24T00:05:12Z",
+          "subject": "Re: Missing items in my order",
+          "body": "HELLO??? I need help with my order!!"
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-021",
+      "created_at": "2026-01-28T03:05:12Z",
+      "updated_at": "2026-02-02T21:58:50Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 35.1,
+      "total_messages": 6,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "Jennifer Thomas",
+        "first_name": "Jennifer",
+        "email": "jennifer.thomas57@yahoo.com",
+        "customer_since": "2025-11-07",
+        "total_orders": 7,
+        "lifetime_value": 484.02
+      },
+      "order": {
+        "order_id": "ORD-29222",
+        "products": [
+          "ZenVita Pro"
+        ],
+        "total": 97.48
+      },
+      "category": "missing_items",
+      "request_type": "replacement",
+      "request_reasonable": true,
+      "our_response_type": "partial",
+      "assigned_agent": {
+        "id": "AGT-003",
+        "name": "Lisa K."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-021-001",
+          "role": "customer",
+          "timestamp": "2026-01-28T03:05:12Z",
+          "subject": "Missing items in my order",
+          "body": "Hello, package arrived but ZenVita Pro wasn't in the box. Order #ORD-29222. What happened?"
+        },
+        {
+          "message_id": "MSG-021-002",
+          "role": "customer",
+          "timestamp": "2026-01-29T11:05:12Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hello?? Is anyone there? I sent an email 2 days ago!"
+        },
+        {
+          "message_id": "MSG-021-003",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-02-01T00:20:42Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hi,\n\nThank you for contacting us. We apologize for any inconvenience.\n\nPlease allow 5-7 business days for a response from our team.\n\nBest,\nCustomer Support",
+          "response_time_hours": 61.3
+        },
+        {
+          "message_id": "MSG-021-004",
+          "role": "customer",
+          "timestamp": "2026-02-01T15:19:42Z",
+          "subject": "Re: Missing items in my order",
+          "body": "I've been waiting 2 days for a response and THIS is what I get? A generic email? You clearly don't care about your customers."
+        },
+        {
+          "message_id": "MSG-021-005",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-02-02T14:50:04Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hi Jennifer,\n\nThank you for your patience. Is there anything else I can help you with?\n\nBest,\nLisa K.",
+          "response_time_hours": 9.6
+        },
+        {
+          "message_id": "MSG-021-006",
+          "role": "customer",
+          "timestamp": "2026-02-02T21:58:50Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Too little too late. I'm done with this company."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-022",
+      "created_at": "2026-01-24T14:05:12Z",
+      "updated_at": "2026-02-01T06:13:52Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 74.9,
+      "total_messages": 6,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "Rachel Martinez",
+        "first_name": "Rachel",
+        "email": "rachel.martinez48@yahoo.com",
+        "customer_since": "2025-08-05",
+        "total_orders": 13,
+        "lifetime_value": 265.52
+      },
+      "order": {
+        "order_id": "ORD-34637",
+        "products": [
+          "MindSharp Focus",
+          "NightRest Elite"
+        ],
+        "total": 135.87
+      },
+      "category": "missing_items",
+      "request_type": "replacement",
+      "request_reasonable": false,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-001",
+        "name": "Sarah M."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-022-001",
+          "role": "customer",
+          "timestamp": "2026-01-24T14:05:12Z",
+          "subject": "Missing items in my order",
+          "body": "Hi, I just received my order #ORD-34637 but MindSharp Focus is missing from the package. I ordered 2 bottles but only received 1. Can you please help?"
+        },
+        {
+          "message_id": "MSG-022-002",
+          "role": "customer",
+          "timestamp": "2026-01-27T14:05:12Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Still waiting for a response... this is really frustrating."
+        },
+        {
+          "message_id": "MSG-022-003",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-01-30T23:20:34Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hello Rachel,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-34637 and can confirm the issue.\n\nI've issued a full refund for the MindSharp Focus which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nSarah M.",
+          "response_time_hours": 81.3
+        },
+        {
+          "message_id": "MSG-022-004",
+          "role": "customer",
+          "timestamp": "2026-01-31T03:27:35Z",
+          "subject": "Re: Missing items in my order",
+          "body": "I've been waiting 3 days for a response and THIS is what I get? A generic email? You clearly don't care about your customers."
+        },
+        {
+          "message_id": "MSG-022-005",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-02-01T02:58:05Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Hi Rachel,\n\nThank you for your patience. Is there anything else I can help you with?\n\nBest,\nSarah M.",
+          "response_time_hours": 6.5
+        },
+        {
+          "message_id": "MSG-022-006",
+          "role": "customer",
+          "timestamp": "2026-02-01T06:13:52Z",
+          "subject": "Re: Missing items in my order",
+          "body": "Fine. But I'm still leaving that review."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-023",
+      "created_at": "2026-01-10T17:05:12Z",
+      "updated_at": "2026-01-17T18:52:26Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 422.2,
+      "total_messages": 6,
+      "customer_double_texted": true,
+      "customer": {
+        "name": "Ryan Taylor",
+        "first_name": "Ryan",
+        "email": "ryan.taylor66@gmail.com",
+        "customer_since": "2025-05-02",
+        "total_orders": 7,
+        "lifetime_value": 111.71
+      },
+      "order": {
+        "order_id": "ORD-26648",
+        "products": [
+          "ZenVita Pro",
+          "IronCore Strength"
+        ],
+        "total": 187.42
+      },
+      "category": "late_delivery",
+      "request_type": "information",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-005",
+        "name": "Emma S."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-023-001",
+          "role": "customer",
+          "timestamp": "2026-01-10T17:05:12Z",
+          "subject": "Where is my order??",
+          "body": "It's been over a week and I still haven't received order #ORD-26648. The tracking hasn't updated in days."
+        },
+        {
+          "message_id": "MSG-023-002",
+          "role": "customer",
+          "timestamp": "2026-01-12T14:05:12Z",
+          "subject": "Re: Where is my order??",
+          "body": "Hello?? Is anyone there? I sent an email 2 days ago!"
+        },
+        {
+          "message_id": "MSG-023-003",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-15T19:55:32Z",
+          "subject": "Re: Where is my order??",
+          "body": "Hello Ryan,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-26648 and can confirm the issue.\n\nI've issued a full refund for the ZenVita Pro which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nEmma S.",
+          "response_time_hours": 77.8
+        },
+        {
+          "message_id": "MSG-023-004",
+          "role": "customer",
+          "timestamp": "2026-01-16T14:39:51Z",
+          "subject": "Re: Where is my order??",
+          "body": "This doesn't solve my problem at all. I asked for a refund, not a discount code I'll never use. Let me speak to a manager."
+        },
+        {
+          "message_id": "MSG-023-005",
+          "role": "agent",
+          "agent_name": "Emma S.",
+          "agent_id": "AGT-005",
+          "timestamp": "2026-01-17T11:12:07Z",
+          "subject": "Re: Where is my order??",
+          "body": "Hi Ryan,\n\nThank you for your patience. Is there anything else I can help you with?\n\nBest,\nEmma S.",
+          "response_time_hours": 11.3
+        },
+        {
+          "message_id": "MSG-023-006",
+          "role": "customer",
+          "timestamp": "2026-01-17T18:52:26Z",
+          "subject": "Re: Where is my order??",
+          "body": "Too little too late. I'm done with this company."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-024",
+      "created_at": "2026-01-08T16:05:12Z",
+      "updated_at": "2026-01-12T02:51:21Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 558.2,
+      "total_messages": 5,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Michelle Taylor",
+        "first_name": "Michelle",
+        "email": "michelle.taylor25@gmail.com",
+        "customer_since": "2025-06-03",
+        "total_orders": 12,
+        "lifetime_value": 541.69
+      },
+      "order": {
+        "order_id": "ORD-30384",
+        "products": [
+          "IronCore Strength",
+          "JointFlex Ultra"
+        ],
+        "total": 105.11
+      },
+      "category": "subscription_cancel",
+      "request_type": "cancellation",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-004",
+        "name": "Mike T."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-024-001",
+          "role": "customer",
+          "timestamp": "2026-01-08T16:05:12Z",
+          "subject": "Cancel my subscription ASAP",
+          "body": "I need to cancel my subscription for IronCore Strength immediately. I can't find where to do it on your website."
+        },
+        {
+          "message_id": "MSG-024-002",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-10T09:47:09Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hello Michelle,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-30384 and can confirm the issue.\n\nI've issued a full refund for the IronCore Strength which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nMike T.",
+          "response_time_hours": 41.7
+        },
+        {
+          "message_id": "MSG-024-003",
+          "role": "customer",
+          "timestamp": "2026-01-11T03:26:26Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "I'm reporting this to the Better Business Bureau. This is fraud. You'll be hearing from my attorney."
+        },
+        {
+          "message_id": "MSG-024-004",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-11T23:23:23Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "Hi Michelle,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nMike T.",
+          "response_time_hours": 2.1
+        },
+        {
+          "message_id": "MSG-024-005",
+          "role": "customer",
+          "timestamp": "2026-01-12T02:51:21Z",
+          "subject": "Re: Cancel my subscription ASAP",
+          "body": "We'll see about that. I've already filed my complaint."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-025",
+      "created_at": "2026-01-08T21:05:12Z",
+      "updated_at": "2026-01-10T07:34:24Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 601.5,
+      "total_messages": 5,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "John Moore",
+        "first_name": "John",
+        "email": "john.moore74@gmail.com",
+        "customer_since": "2024-10-24",
+        "total_orders": 12,
+        "lifetime_value": 567.07
+      },
+      "order": {
+        "order_id": "ORD-23854",
+        "products": [
+          "SlimBoost Max",
+          "GutHealth Plus"
+        ],
+        "total": 126.05
+      },
+      "category": "billing_dispute",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-002",
+        "name": "James R."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-025-001",
+          "role": "customer",
+          "timestamp": "2026-01-08T21:05:12Z",
+          "subject": "Incorrect charge on my account",
+          "body": "Why was I charged $68 when the website showed $35? Order #ORD-23854. This is not what I agreed to."
+        },
+        {
+          "message_id": "MSG-025-002",
+          "role": "agent",
+          "agent_name": "James R.",
+          "agent_id": "AGT-002",
+          "timestamp": "2026-01-09T10:52:15Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hello John,\n\nI'm so sorry to hear about this problem. I've looked into your order #ORD-23854 and can confirm the issue.\n\nI've issued a full refund for the SlimBoost Max which should appear in your account within 3-5 business days. I've also added a 20% discount code for your next order: SORRY20\n\nPlease let me know if you need anything else.\n\nWarm regards,\nJames R.",
+          "response_time_hours": 13.8
+        },
+        {
+          "message_id": "MSG-025-003",
+          "role": "customer",
+          "timestamp": "2026-01-09T14:29:27Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Fine. I'll just leave reviews EVERYWHERE about how terrible your company is. Yelp, Facebook, Google - everyone will know."
+        },
+        {
+          "message_id": "MSG-025-004",
+          "role": "agent",
+          "agent_name": "James R.",
+          "agent_id": "AGT-002",
+          "timestamp": "2026-01-10T02:23:31Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hi John,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nJames R.",
+          "response_time_hours": 2.7
+        },
+        {
+          "message_id": "MSG-025-005",
+          "role": "customer",
+          "timestamp": "2026-01-10T07:34:24Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Fine. But I'm still leaving that review."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-026",
+      "created_at": "2026-01-25T11:05:12Z",
+      "updated_at": "2026-01-27T01:55:41Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 199.2,
+      "total_messages": 4,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Kayla Johnson",
+        "first_name": "Kayla",
+        "email": "kayla.johnson59@gmail.com",
+        "customer_since": "2025-07-14",
+        "total_orders": 13,
+        "lifetime_value": 279.1
+      },
+      "order": {
+        "order_id": "ORD-71968",
+        "products": [
+          "GutHealth Plus"
+        ],
+        "total": 63.52
+      },
+      "category": "billing_dispute",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "partial",
+      "assigned_agent": {
+        "id": "AGT-004",
+        "name": "Mike T."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-026-001",
+          "role": "customer",
+          "timestamp": "2026-01-25T11:05:12Z",
+          "subject": "Incorrect charge on my account",
+          "body": "I cancelled my subscription but you STILL charged me for GutHealth Plus. I want a refund right now."
+        },
+        {
+          "message_id": "MSG-026-002",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-25T23:56:30Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hi,\n\nThank you for contacting us. We apologize for any inconvenience.\n\nPlease allow 5-7 business days for a response from our team.\n\nBest,\nCustomer Support",
+          "response_time_hours": 12.9
+        },
+        {
+          "message_id": "MSG-026-003",
+          "role": "customer",
+          "timestamp": "2026-01-26T11:05:33Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "I'm contacting the State Attorney General's office about your deceptive business practices. This is illegal."
+        },
+        {
+          "message_id": "MSG-026-004",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-27T01:55:41Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hi Kayla,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nMike T.",
+          "response_time_hours": 4.9
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-027",
+      "created_at": "2026-01-28T23:05:12Z",
+      "updated_at": "2026-01-31T12:40:27Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 92.4,
+      "total_messages": 4,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Amanda Miller",
+        "first_name": "Amanda",
+        "email": "amanda.miller62@gmail.com",
+        "customer_since": "2025-09-09",
+        "total_orders": 8,
+        "lifetime_value": 394.01
+      },
+      "order": {
+        "order_id": "ORD-35144",
+        "products": [
+          "ZenVita Pro"
+        ],
+        "total": 137.94
+      },
+      "category": "billing_dispute",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-003",
+        "name": "Lisa K."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-027-001",
+          "role": "customer",
+          "timestamp": "2026-01-28T23:05:12Z",
+          "subject": "Incorrect charge on my account",
+          "body": "I cancelled my subscription but you STILL charged me for ZenVita Pro. I want a refund right now."
+        },
+        {
+          "message_id": "MSG-027-002",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-30T10:15:20Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hi Amanda,\n\nThank you for reaching out, and I sincerely apologize for this issue with your order.\n\nI've already processed a replacement shipment for the ZenVita Pro - it will ship today with express delivery at no extra charge. You should receive it within 2-3 business days.\n\nTracking number: 1Z718992439\n\nIs there anything else I can help you with?\n\nBest,\nLisa K.",
+          "response_time_hours": 35.2
+        },
+        {
+          "message_id": "MSG-027-003",
+          "role": "customer",
+          "timestamp": "2026-01-31T07:37:48Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "I have 50,000 followers on Instagram. One post about this experience and you'll lose a lot more than my $49.99."
+        },
+        {
+          "message_id": "MSG-027-004",
+          "role": "agent",
+          "agent_name": "Lisa K.",
+          "agent_id": "AGT-003",
+          "timestamp": "2026-01-31T12:40:27Z",
+          "subject": "Re: Incorrect charge on my account",
+          "body": "Hi Amanda,\n\nI understand your frustration and I've escalated this to my supervisor. Someone from our management team will reach out within 24 hours to resolve this.\n\nWe truly value your business and want to make this right.\n\nSincerely,\nLisa K.",
+          "response_time_hours": 4.3
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-028",
+      "created_at": "2026-01-18T11:05:12Z",
+      "updated_at": "2026-01-18T16:52:03Z",
+      "status": "open",
+      "last_message_role": "customer",
+      "hours_since_last_response": 400.2,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Chris Davis",
+        "first_name": "Chris",
+        "email": "chris.davis48@gmail.com",
+        "customer_since": "2024-03-07",
+        "total_orders": 7,
+        "lifetime_value": 127.49
+      },
+      "order": {
+        "order_id": "ORD-56165",
+        "products": [
+          "MindSharp Focus"
+        ],
+        "total": 68.06
+      },
+      "category": "product_not_working",
+      "request_type": "refund",
+      "request_reasonable": true,
+      "our_response_type": "partial",
+      "assigned_agent": {
+        "id": "AGT-001",
+        "name": "Sarah M."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-028-001",
+          "role": "customer",
+          "timestamp": "2026-01-18T11:05:12Z",
+          "subject": "MindSharp Focus not working as advertised",
+          "body": "I've been taking MindSharp Focus for 2 months now and I haven't noticed ANY difference. This feels like a waste of money."
+        },
+        {
+          "message_id": "MSG-028-002",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-01-18T13:10:17Z",
+          "subject": "Re: MindSharp Focus not working as advertised",
+          "body": "Hi,\n\nThank you for reaching out. Your feedback is important to us.\n\nPlease check our FAQ page for common questions: www.zenithsupplements.com/faq\n\nBest,\nSarah M.",
+          "response_time_hours": 2.1
+        },
+        {
+          "message_id": "MSG-028-003",
+          "role": "customer",
+          "timestamp": "2026-01-18T16:52:03Z",
+          "subject": "Re: MindSharp Focus not working as advertised",
+          "body": "Fine. I'll just leave reviews EVERYWHERE about how terrible your company is. Yelp, Facebook, Google - everyone will know."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-029",
+      "created_at": "2026-01-30T00:05:12Z",
+      "updated_at": "2026-01-31T10:46:15Z",
+      "status": "closed",
+      "last_message_role": "customer",
+      "hours_since_last_response": 94.3,
+      "total_messages": 3,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Stephanie Davis",
+        "first_name": "Stephanie",
+        "email": "stephanie.davis30@gmail.com",
+        "customer_since": "2025-09-23",
+        "total_orders": 12,
+        "lifetime_value": 460.52
+      },
+      "order": {
+        "order_id": "ORD-21249",
+        "products": [
+          "JointFlex Ultra"
+        ],
+        "total": 129.11
+      },
+      "category": "general_inquiry",
+      "request_type": "information",
+      "request_reasonable": false,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-004",
+        "name": "Mike T."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-029-001",
+          "role": "customer",
+          "timestamp": "2026-01-30T00:05:12Z",
+          "subject": "Question about JointFlex Ultra",
+          "body": "When will JointFlex Ultra be back in stock? I've been checking every day."
+        },
+        {
+          "message_id": "MSG-029-002",
+          "role": "agent",
+          "agent_name": "Mike T.",
+          "agent_id": "AGT-004",
+          "timestamp": "2026-01-31T02:27:47Z",
+          "subject": "Re: Question about JointFlex Ultra",
+          "body": "Hello Stephanie,\n\nYes, you can take JointFlex Ultra with any other medication - there are no interactions to worry about.\n\nBest,\nMike T.",
+          "response_time_hours": 26.4
+        },
+        {
+          "message_id": "MSG-029-003",
+          "role": "customer",
+          "timestamp": "2026-01-31T10:46:15Z",
+          "subject": "Re: Question about JointFlex Ultra",
+          "body": "Are you serious?? I've been a customer for 2 years and this is how you treat me? This is UNACCEPTABLE."
+        }
+      ]
+    },
+    {
+      "thread_id": "TH-2024-030",
+      "created_at": "2026-01-27T22:05:12Z",
+      "updated_at": "2026-01-31T00:29:01Z",
+      "status": "closed",
+      "last_message_role": "agent",
+      "hours_since_last_response": 104.6,
+      "total_messages": 4,
+      "customer_double_texted": false,
+      "customer": {
+        "name": "Brian Moore",
+        "first_name": "Brian",
+        "email": "brian.moore29@yahoo.com",
+        "customer_since": "2024-04-04",
+        "total_orders": 9,
+        "lifetime_value": 838.54
+      },
+      "order": {
+        "order_id": "ORD-37653",
+        "products": [
+          "MindSharp Focus"
+        ],
+        "total": 97.97
+      },
+      "category": "general_inquiry",
+      "request_type": "information",
+      "request_reasonable": true,
+      "our_response_type": "granted",
+      "assigned_agent": {
+        "id": "AGT-001",
+        "name": "Sarah M."
+      },
+      "messages": [
+        {
+          "message_id": "MSG-030-001",
+          "role": "customer",
+          "timestamp": "2026-01-27T22:05:12Z",
+          "subject": "Question about MindSharp Focus",
+          "body": "When will MindSharp Focus be back in stock? I've been checking every day."
+        },
+        {
+          "message_id": "MSG-030-002",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-01-29T18:52:29Z",
+          "subject": "Re: Question about MindSharp Focus",
+          "body": "Hi Brian,\n\nYour order should arrive within 24 hours. Our express shipping guarantees next-day delivery.\n\nBest,\nSarah M.",
+          "response_time_hours": 44.8
+        },
+        {
+          "message_id": "MSG-030-003",
+          "role": "customer",
+          "timestamp": "2026-01-30T04:23:11Z",
+          "subject": "Re: Question about MindSharp Focus",
+          "body": "This doesn't solve my problem at all. I asked for a refund, not a discount code I'll never use. Let me speak to a manager."
+        },
+        {
+          "message_id": "MSG-030-004",
+          "role": "agent",
+          "agent_name": "Sarah M.",
+          "agent_id": "AGT-001",
+          "timestamp": "2026-01-31T00:29:01Z",
+          "subject": "Re: Question about MindSharp Focus",
+          "body": "Hi Brian,\n\nThank you for your patience. Is there anything else I can help you with?\n\nBest,\nSarah M.",
+          "response_time_hours": 9.3
+        }
+      ]
+    }
+  ]
+}
